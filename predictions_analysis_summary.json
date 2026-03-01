@@ -1,0 +1,58 @@
+{
+  "total": 1912,
+  "accuracy": 0.8483263598326359,
+  "labels": [
+    "Healthy",
+    "Melanocytic nevi",
+    "Melanoma"
+  ],
+  "per_class": {
+    "Healthy": {
+      "support": 171,
+      "correct": 169,
+      "accuracy": 0.9883040935672515,
+      "avg_conf_correct": 0.9925237516679707,
+      "avg_conf_wrong": 0.6260878145694733,
+      "wrong_examples": 2
+    },
+    "Melanocytic nevi": {
+      "support": 1288,
+      "correct": 1187,
+      "accuracy": 0.921583850931677,
+      "avg_conf_correct": 0.8538447186639556,
+      "avg_conf_wrong": 0.6506011031641818,
+      "wrong_examples": 101
+    },
+    "Melanoma": {
+      "support": 453,
+      "correct": 266,
+      "accuracy": 0.58719646799117,
+      "avg_conf_correct": 0.7939518811111164,
+      "avg_conf_wrong": 0.7046979107958747,
+      "wrong_examples": 187
+    }
+  },
+  "common_mistakes": [
+    [
+      [
+        "Melanoma",
+        "Melanocytic nevi"
+      ],
+      187
+    ],
+    [
+      [
+        "Melanocytic nevi",
+        "Melanoma"
+      ],
+      101
+    ],
+    [
+      [
+        "Healthy",
+        "Melanocytic nevi"
+      ],
+      2
+    ]
+  ]
+}

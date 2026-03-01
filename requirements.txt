@@ -1,0 +1,5 @@
+tensorflow
+numpy
+pillow
+h5py
+matplotlib
