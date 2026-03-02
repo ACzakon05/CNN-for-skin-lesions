@@ -1,6 +1,7 @@
 # Image Classifier Project (CPU-friendly)
 
 Projekt klasyfikuje obrazy do 3 klas: healthy,melanoma, melanocytic nevi, używając EfficientNetB0.
+Dokładne informacje w pliku pdf
 
 ## Struktura katalogów
 - data/train/, data/validate/, data/test/ – obrazy posegregowane po klasach
